@@ -1,0 +1,38 @@
+TO impelment any function of this package just use the function name and parameters required
+first paprameter is f: f denotes the function on which the approximation is to be applied (will be the must and first parameter of all functions)
+
+Othe Methods use diffrent parameters as mentioned in the list below:
+
+-> Bisection methode : can be used as              ""   bi_mthd(f, a, b)    ""
+  
+  a: second parameter which will be the left end point of the interval
+  b: third parameter which will be the right end point 
+
+  tol: is the fourth parameter denoting tolerence for the root which is predefined but can be changed as per usage 
+  max_iter: is the fifth and the last parameter which is already set to 100 iterations
+
+
+-> Newton-Raphson methode :can be used as              ""   newton_raphson(f, df, x0)    ""
+  
+  df: second parameter which will be the derivative of the function
+  x0: third parameter which is the intial guess 
+
+  tol: is the fourth parameter denoting tolerence for the root which is predefined but can be changed as per usage 
+  max_iter: is the fifth and the last parameter which is already set to 100 iterations
+
+-> Regular Falsi methode :can be used as              ""  regula_falsi(f, a, b)    ""
+  
+  a: second parameter which will be the left end point of the interval
+  b: third parameter which will be the right end point 
+
+  tol: is the fourth parameter denoting tolerence for the root which is predefined but can be changed as per usage 
+  max_iter: is the fifth and the last parameter which is already set to 100 iterations
+
+
+  -> Secant methode:can be used as              ""   scnt_mthd(f, x0, x1)    ""
+  
+  x0: second parameter which will be the first intial guess
+  x1: third parameter which will be the second intial guess
+
+  tol: is the fourth parameter denoting tolerence for the root which is predefined but can be changed as per usage 
+  max_iter: is the fifth and the last parameter which is already set to 100 iterations
